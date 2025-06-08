@@ -44,16 +44,16 @@ The easiest way to get started is to open the notebook directly in Google Colab.
 
 1.  **Click the button below to open the notebook.**
     
-    [![Open In Colab](https://colab.research.google.com/github/daniballester-ai/ARIMA-Stock-Price-Forecasting/blob/main/ARIMA.ipynb)
-    > **Note:** Remember to replace `YOUR_USERNAME` with your actual GitHub username in the link if you are forking this repo.
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/daniballester-ai/ARIMA-Stock-Price-Forecasting/blob/main/ARIMA.ipynb)
+   
 
-2.  **Save a copy to your Google Drive.**
+3.  **Save a copy to your Google Drive.**
     Once the notebook is open, save your own copy by navigating to `File > Save a copy in Drive`. This will allow you to run, edit, and save your changes.
 
-3.  **Upload the dataset.**
+4.  **Upload the dataset.**
     In the Colab left sidebar of your new notebook, click the "Files" icon. Click "Upload to session storage" and select the `MSFT-1Y-Hourly.csv` file from this repository.
 
-4.  **Run the cells.**
+5.  **Run the cells.**
     Execute the notebook cells in sequential order.
     *   **Important**: The first cell contains `exit()`, which will force the Colab kernel to restart. This is intentional to load the correct library versions. After it restarts, continue running the cells from the top.
 
@@ -80,6 +80,4 @@ The main libraries used in this project are:
 
 The first cell in the notebook handles the installation of `pmdarima` and the specific version of `numpy`.
 
----
 
-Inspired by the YouTube tutorial: [ARIMA Models for Stock Price Prediction](https://www.youtube.com/watch?v=gqryqIlvEoM)
